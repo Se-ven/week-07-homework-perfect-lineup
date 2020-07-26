@@ -1,6 +1,6 @@
 const expect = require('chai').expect
 const { describe, it } = require('mocha')
-const validateLineup = require('./index')
+const validateLineup = require('./index.js')
 
 describe('validateLineup', () => {
   it('returns true when the lineup satisfies all conditions', () => {
